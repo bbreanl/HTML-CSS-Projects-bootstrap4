@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Underwater Pad </title>
+        <link rel="stylesheet" href="./CSS/shared.css">
+        <link rel="stylesheet" href="./CSS/animations.css">
+        <link rel="stylesheet" type="text/
+        css" href="CSS/plant.css" />
+        <!-- Images used 
+        to open the lightbox -->
+        <script src="JavaScript/plants.js" defer></script>
+    </head>
+    <body>
+
+       <!-- NAV --> 
+       <div class="wrap"> 
+           <div class="menu-container">
+               <ul class="menu">
+                  <a href="#home"><li>HOME</li></a> 
+                  <a href="#gallery"><li>GALLERY</li></a>
+                  <a href="#contact"><li>RESERVATION</li></a>
+               </ul>
+          </div>  
+       </div>
+       <!--END NAV -->
+       
+       <!--HOME -->
+       <div id="home">
+           <div class="container">
+              <div class="text-center">
+                 <span class="head-main">Underwater Pad</span>
+           </div>
+        </div>
+    </div>
+       <!--END HOME-->
+    <div class="row">
+        <div class="column resize">
+            <img src="plant1-small.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column resize">
+            <img src="plant2-small.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column resize"> 
+            <img src="plant3-small.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="column resize">
+            <img src="plant4-small.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+    </div>
+    
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+    
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="plant1.png" style="width:100%">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="plant2.png" style="width:100%">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="plant3.png" style="width:100%">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="plant4.png" style="width:100%">
+            </div>
+    
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides
+    (-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)
+    ">&#10095;</a>
+    
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+    
+            <!-- Thumbnail image controls -->
+            <div class="column resize">
+                <img class="demo" src="plant1-small.png" onclick="currentSlide(1)" alt="Nature">
+            </div>
+    
+            <div class="column resize">
+                <img class="demo" src="plant2-small.png" onclick="currentSlide(2)" alt="Snow">
+            </div>
+    
+            <div class="column resize">
+                <img class="demo" src="plant3-small.png" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+    
+            <div class="column resize">
+                <img class="demo" src="plant4-small.png" onclick="currentSlide(4)" alt="Lights">
+            </div>
+        </div>
+    </div>
+       <!-- GALLERY -->
+       <section id="gallery">
+           <div class="container">
+               <h1>Gallery</h1>
+               <div class="flex-container">
+              
+                <!-- PHOTO-CONTAINER 1 -->
+              <div class="photo-container">
+                <div class="photo">
+               <img src="images/thumb/thumbnail_1.png" alt=""> 
+               <div class="photo-overlay">  
+                    <h3>Click to Enlarge</h3>
+                    <p>We have several underwater rooms, book your pad today </p>   
+                </div>
+            </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 1 -->
+
+        <!-- PHOTO-CONTAINER 2 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_2.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 2 -->
+
+        <!-- PHOTO-CONTAINER 3 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_3.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 3 -->
+
+        <!-- PHOTO-CONTAINER 4 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_4.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 4 -->
+
+        <!-- PHOTO-CONTAINER 5 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_5.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 5 -->
+
+        <!-- PHOTO-CONTAINER 6 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_6.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 6 -->
+
+        <!-- PHOTO-CONTAINER 7 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_7.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 7 -->
+
+        <!-- PHOTO-CONTAINER 8 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_8.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 8 -->
+
+        <!-- PHOTO-CONTAINER 9 -->
+        <div class="photo-container">
+            <div class="photo">
+                <img src="./images/thumb/thumbnail_9.png" alt=""> <div class="photo-overlay">
+                <h3>Click to Enlarge</h3>
+                <p>We have several underwater rooms, book your pad today </p>
+            </div>
+        </div>
+        </div>
+        <!-- END PHOTO-CONTAINER 9 -->
+
+               </div>
+           </div>
+       </section>
+       <!-- END GALLERY -->
+       
+       <!-- RSVP -->
+       <section id="contact">
+           <div class="container">
+               <div class="heading-padding">
+                   <h1 class="heading-padding">Reservations</h1>
+                   <div reservation>
+                       <h2><span>Your adventure awaits you.</span>
+                          <br/> Reserve your pad today!
+                       </h2>
+                       <p class="rsvp-text">
+                       Please provid us with your basic contact information.
+                       </p>
+                       <div class="form-rsvp">
+                       <form action="" method="post">
+                             <input class="rsvp" type="text" value="" placeholder="First Name">
+                             <input class="rsvp" type="text" value="" placeholder="Last Name">
+                             <input class="rsvp" type="text" value="" placeholder="Email Address">
+                             <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                             <div class="form-spacer">
+                                 <label class="terms">Terms and Conditions</label>
+                             </div>
+                             <div class="submit">
+                                  <input type="submit" value="Submit">
+                             </div>
+                       </form>
+                       </div>
+                   </div>
+               
+                </div>
+           </div>
+       </section>
+       <!--END RSVP -->
+       
+       <!-- FOOTER -->
+       <div id="footer">
+            www.Underwaterpad.underwater snbsp;|snbsp; &copy; 2015
+    </div>
+       <!-- END FOOTER -->    
+
+    </body>
+</html>       
